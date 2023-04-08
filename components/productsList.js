@@ -9,6 +9,7 @@ export default function () {
       data={products}
       keyExtractor={(product) => product.id}
       renderItem={({ item }) => <ProductCard {...item} />}
+      contentContainerStyle={{ paddingHorizontal: 15 }}
     />
   );
 }

@@ -8,7 +8,7 @@ export default function App() {
 
   return (
     <SafeAreaView className="flex-1 items-center justify-center bg-gray-200 dark:bg-black">
-      <View className="flex-row w-full gap-5">
+      <View className="flex-row w-full justify-between gap-5">
         <Text className="dark:text-white text-2xl font-bold">
           New Collection
         </Text>
